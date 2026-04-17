@@ -1,0 +1,155 @@
+# Anthropic     Claude AI 核心域名、CDN、Auth0 认证、Sentry 监控等
+# 核心域名
+ DOMAIN-SUFFIX,anthropic.com
+ DOMAIN-SUFFIX,claude.ai
+ DOMAIN-SUFFIX,claude.com
+ DOMAIN-SUFFIX,clau.de
+ DOMAIN-SUFFIX,claudemcpclient.com
+ DOMAIN-SUFFIX,claudeusercontent.com
+  # CDN 和静态资源
+ DOMAIN,servd-anthropic-website.b-cdn.net
+ DOMAIN,anthropic.com.cdn.cloudflare.net
+  # 认证 / 内容
+ DOMAIN,anthropic.auth0.com
+ DOMAIN,anthropic-com.ghost.io
+  # 监控和遥测
+ DOMAIN-SUFFIX,sentry.io
+ DOMAIN-SUFFIX,statsigapi.net
+ DOMAIN,browser-intake-us5-datadoghq.com
+ DOMAIN-KEYWORD,datadog
+ DOMAIN-KEYWORD,sift
+  # 客服 / 第三方 widget
+ DOMAIN-SUFFIX,intercom.io
+ DOMAIN-SUFFIX,intercomcdn.com
+ DOMAIN,cdn.usefathom.com
+  # IP 段 / ASN 兜底
+ IP-CIDR,160.79.104.0/21,no-resolve
+ IP-CIDR6,2607:6bc0::/32,no-resolve
+ IP-ASN,399358,no-resolve
+
+ # AppleIntelligence      Apple Private Relay 中继服务
+ DOMAIN,apple-relay.apple.com
+ DOMAIN,apple-relay.cloudflare.com
+
+ # Cursor Cursor AI 编辑器、CDN、API 及 WorkOS 认证
+ DOMAIN-SUFFIX,cursor.sh
+ DOMAIN-SUFFIX,cursor-cdn.com
+ DOMAIN-SUFFIX,cursorapi.com
+ DOMAIN-SUFFIX,cursor.com
+ DOMAIN-SUFFIX,workos.com
+
+ # Gemini     Gemini / Bard / DeepMind / AI Studio / Colab
+ DOMAIN,ai.google.dev
+ DOMAIN,alkalimakersuite-pa.clients6.google.com
+ DOMAIN,makersuite.google.com
+ DOMAIN-SUFFIX,bard.google.com
+ DOMAIN-SUFFIX,deepmind.com
+ DOMAIN-SUFFIX,deepmind.google
+ DOMAIN-SUFFIX,gemini.google.com
+ DOMAIN-SUFFIX,generativeai.google
+ DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+ DOMAIN-SUFFIX,apis.google.com
+ DOMAIN-KEYWORD,colab
+ DOMAIN-KEYWORD,developerprofiles
+ DOMAIN-KEYWORD,generativelanguage
+ # - DOMAIN-SUFFIX,google.com
+ # - DOMAIN-SUFFIX,googleapis.com
+ DOMAIN,proactivebackend-pa.googleapis.com
+
+ # OpenAI ChatGPT、Sora、DALL·E 及相关 CDN / Auth / 支付 / 实时通信
+ DOMAIN-SUFFIX,openai.com
+ DOMAIN-SUFFIX,auth0.com
+ DOMAIN-SUFFIX,sentry.io
+ DOMAIN-SUFFIX,hcaptcha.com
+ DOMAIN-SUFFIX,recaptcha.net
+ DOMAIN-SUFFIX,gstatic.com
+ DOMAIN-SUFFIX,gvt2.com
+ DOMAIN-SUFFIX,gvt1.com
+ DOMAIN-SUFFIX,gvt3.com
+ DOMAIN-SUFFIX,msftconnecttest.com
+ DOMAIN-SUFFIX,live.com
+ DOMAIN-SUFFIX,sfx.ms
+ DOMAIN-SUFFIX,microsoft.com
+ DOMAIN-SUFFIX,oaistatic.com
+ DOMAIN-SUFFIX,oaiusercontent.com
+ DOMAIN,browser-intake-datadoghq.com
+ DOMAIN,chat.openai.com.cdn.cloudflare.net
+ DOMAIN,openai-api.arkoselabs.com
+ DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+ DOMAIN,openaicomproductionae4b.blob.core.windows.net
+ DOMAIN,production-openaicom-storage.azureedge.net
+ DOMAIN,static.cloudflareinsights.com
+ DOMAIN-SUFFIX,ai.com
+ DOMAIN-SUFFIX,algolia.net
+ DOMAIN-SUFFIX,api.statsig.com
+ DOMAIN-SUFFIX,chatgpt.com
+ DOMAIN-SUFFIX,chatgpt.livekit.cloud
+ DOMAIN-SUFFIX,client-api.arkoselabs.com
+ DOMAIN-SUFFIX,events.statsigapi.net
+ DOMAIN-SUFFIX,featuregates.org
+ DOMAIN-SUFFIX,host.livekit.cloud
+ DOMAIN-SUFFIX,identrust.com
+ DOMAIN-SUFFIX,intercom.io
+ DOMAIN-SUFFIX,intercomcdn.com
+ DOMAIN-SUFFIX,launchdarkly.com
+ DOMAIN-SUFFIX,observeit.net
+ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+ DOMAIN-SUFFIX,openaicom.imgix.net
+ DOMAIN-SUFFIX,segment.io
+ DOMAIN-SUFFIX,stripe.com
+ DOMAIN-SUFFIX,turn.livekit.cloud
+ DOMAIN-KEYWORD,openai
+ IP-CIDR,24.199.123.28/32
+ IP-CIDR,64.23.132.171/32
+ IP-ASN,20473
+
+ # Trae      Trae AI 编辑器及后端基础设施
+ DOMAIN-SUFFIX,trae.ai
+ DOMAIN-SUFFIX,byteoversea.com
+ DOMAIN-SUFFIX,trae-api-sg.mchost.guru
+ DOMAIN-SUFFIX,lf3-static.bytednsdoc.com
+ DOMAIN-SUFFIX,bytegate-sg.byteintlapi.com
+ DOMAIN-SUFFIX,abtestvm-sg.bytedance.com
+ DOMAIN-SUFFIX,tron-sg.bytelemon.com
+ DOMAIN-SUFFIX,sf16-short-sg.bytedapm.com
+ DOMAIN-SUFFIX,trae.com.cn
+ DOMAIN-SUFFIX,tron.jiyunhudong.com
+ DOMAIN-SUFFIX,starling.zijieapi.com
+
+ # Windsurf     Windsurf AI 编辑器
+ DOMAIN-SUFFIX,windsurf.com
+ DOMAIN-SUFFIX,codeium.com
+
+ # xAI    Grok AI 与 X (Twitter) 平台全量域名及 IP
+ DOMAIN-SUFFIX,ads-twitter.com
+ DOMAIN-SUFFIX,cms-twdigitalassets.com
+ DOMAIN-SUFFIX,periscope.tv
+ DOMAIN-SUFFIX,pscp.tv
+ DOMAIN-SUFFIX,t.co
+ DOMAIN-SUFFIX,tellapart.com
+ DOMAIN-SUFFIX,tweetdeck.com
+ DOMAIN-SUFFIX,twimg.co
+ DOMAIN-SUFFIX,twimg.com
+ DOMAIN-SUFFIX,twimg.org
+ DOMAIN-SUFFIX,twitpic.com
+ DOMAIN-SUFFIX,twitter.biz
+ DOMAIN-SUFFIX,twitter.com
+ DOMAIN-SUFFIX,twitter.jp
+ DOMAIN-SUFFIX,twittercommunity.com
+ DOMAIN-SUFFIX,twitterflightschool.com
+ DOMAIN-SUFFIX,twitterinc.com
+ DOMAIN-SUFFIX,twitteroauth.com
+ DOMAIN-SUFFIX,twitterstat.us
+ DOMAIN-SUFFIX,twtrdns.net
+ DOMAIN-SUFFIX,twttr.com
+ DOMAIN-SUFFIX,twttr.net
+ DOMAIN-SUFFIX,twvid.com
+ DOMAIN-SUFFIX,vine.co
+ DOMAIN-SUFFIX,x.com
+ DOMAIN-KEYWORD,twitter
+ IP-CIDR,192.133.76.0/22
+ IP-CIDR,199.59.148.0/22
+ IP-CIDR,199.96.56.0/21
+ IP-CIDR,202.160.128.0/22
+ IP-CIDR,209.237.192.0/19
+ IP-CIDR,69.195.160.0/19
